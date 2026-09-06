@@ -10,7 +10,7 @@ from telegram.ext import (
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # Configuration
-BOT_TOKEN = "8958972223:AAEvH-Qd81T-I1tulHWBnykfwJt_tEMYlpQ"
+BOT_TOKEN = "8958972223:AAHofuuD5Lz0O1sfLZNcHtgElafyLY_XriU"
 ADMIN_ID = 6811141921
 
 # Global Database (In-Memory structure; preserves states during session)
