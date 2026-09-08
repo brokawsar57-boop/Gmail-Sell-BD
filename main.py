@@ -35,8 +35,8 @@ def keep_alive():
 # ----------------------------------------------------
 # CONFIGURATION
 # ----------------------------------------------------
-BOT_TOKEN = "8958972223:AAHofuuD5Lz0O1sfLZNcHtgElafyLY_XriU"
-ADMIN_IDS = [7699501193]
+BOT_TOKEN = "8958972223:AAEKCPyi6u7fXVmtIEGO-1liTSRfjspfF4A"
+ADMIN_IDS = [6811141921]
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
@@ -48,7 +48,7 @@ logging.basicConfig(
 db = {
     "users": {},            # uid: {name, balance, ref_by, referrals: [], completed_tasks: [], claimed_codes: []}
     "admin_list": set(ADMIN_IDS),
-    "channels": ["@Official_Update_Channel"], # চ্যানেলের ইউজারনেম দিতে হবে (যেমন: @channelusername)
+    "channels": ["https://t.me/FreeIncomeBDksOfficial"], # চ্যানেলের ইউজারনেম দিতে হবে (যেমন: @channelusername)
     "gmail_settings": {
         "password": "Password123",
         "rate": 20.0,
